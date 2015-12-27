@@ -1,6 +1,8 @@
 # Temperature-Logger
 Raspberry PI Temperature logger, using DHT 11
 
+Results you can find under result.png file.
+
 Installed python3, sqlite, apache with cgi, internet connection are mandatory to use project.
 
 In my case DHT11 termometer is connected to GPIO pin 4, use 3,5V power and 3,5kohm resistor.
@@ -13,5 +15,5 @@ Apache is required to handle cgi script in python language, you can find a nice 
 
 Python script should be placed in yout apache cgi-bin directory.
 
-A device have to be connected to internet, becasue of google libraries for displaying charts.
+A device have to be connected to internet, becasue of using google charts libraries.
 
