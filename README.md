@@ -5,7 +5,7 @@ Results you can find under result.png file.
 
 Installed python3, sqlite, apache with cgi, internet connection are mandatory to use project.
 
-In my case DHT11 termometer is connected to GPIO pin 4, use 3,5V power and 3,5kohm resistor.
+In my case DHT11 termometer is connected to GPIO pin 4, use 3,5V power and 0,5 ohm resistor.
 
 Shell script collects data form termometer i use Adafrui_DHT script for that.
 
